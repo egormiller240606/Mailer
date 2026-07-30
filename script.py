@@ -98,12 +98,12 @@ def send_batch(batch, server):
             )       
 
             print(
-                f"✅ УСПЕХ: письмо отправлено на {email}"
+                f"Письмо отправлено на {email}"
             )
 
         except Exception as e:
             print(
-                f"❌ ОШИБКА: письмо не отправлено на {email}"
+                f"Письмо не отправлено на {email}"
             )
             print(
                 f"Причина: {e}"
