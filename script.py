@@ -65,7 +65,7 @@ def send_email(server, email, name, surname, pdfs, subject):
     )
 
     for pdf in pdfs:
-        path = f"files/{pdf}"
+        path = f"pdf_files/{pdf}"
 
         with open(path, "rb") as file_to_send:
             msg.add_attachment(
